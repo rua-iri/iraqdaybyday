@@ -1,0 +1,21 @@
+* {
+  outline: 3px solid red;
+}
+
+
+body {
+  margin: 1vw auto;
+  max-width: 62vw;
+  line-height: 4vh;
+  font-size: 3.2vh;
+  color: #252525;
+  padding: 0 1vh;
+}
+
+
+h1,
+h2,
+h3 {
+  line-height: 8vh;
+}
+
