@@ -11,7 +11,7 @@ export default function Title() {
             </h1>
 
             <h3>
-                A daily (***) of civilian deaths as a consquence of the invasion of Iraq
+                A log of civilian deaths as a consquence of the invasion of Iraq on the same day 20 years ago
             </h3>
         </div>
 
