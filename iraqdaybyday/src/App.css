@@ -8,9 +8,6 @@ body {
 }
 
 
-.incident-container *{
-  outline: 1px red solid;
-}
 
 .incident-container {
   display: grid;
@@ -22,6 +19,7 @@ body {
 .incident {
   display: grid;
   text-align: center;
+  align-items: center;
   grid-template-columns: 11vw 11vw 11vw 11vw 11vw;
   column-gap: 1vw;
 }
@@ -31,6 +29,4 @@ body {
   font-size: 120%;
 }
 
-.incident-details {
-}
 
