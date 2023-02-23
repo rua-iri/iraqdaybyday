@@ -7,7 +7,12 @@ export default function Incident(props) {
 
     if(props.isTitle) {
         mainClass += " incident-title"
+    } else {
+        mainClass = mainClass + " " + mainClass + props.oddEven;
     }
+
+    console.log(props.oddEven)
+
 
     return (
 

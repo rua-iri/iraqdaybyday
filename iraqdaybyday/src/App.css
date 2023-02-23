@@ -5,6 +5,8 @@ body {
   max-width: 62vw;
   color: #252525;
   margin: auto;
+  margin-bottom: 10vh;
+  font-size: 3vh;
 }
 
 
@@ -13,7 +15,7 @@ body {
   display: grid;
   justify-content: center;
   grid-template-rows: auto;
-  row-gap: 1vh;
+  row-gap: 2vh;
 }
 
 .incident {
@@ -24,9 +26,15 @@ body {
   column-gap: 1vw;
 }
 
+.incident1 {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
 .incident-title {
   font-weight: 700;
-  font-size: 120%;
+  border: none;
+  background-color: rgba(29, 27, 27, 0.856);
+  color: rgb(255, 255, 255);
 }
 
 
