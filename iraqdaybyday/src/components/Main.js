@@ -36,13 +36,14 @@ export default function Main() {
 
     let blah;
 
+    let casualtiesExist = todayCasualties && todayCasualties.length>0;
 
     // TODO make this if statement work if no results are returned
     // for SOME REASON javascript evaluates []!==[] to true!!!!!
     // therefore if todayCasualties is empty then this still evalutes to true
     // also an empty array evaluates to true and we can't map an empty array obviously
 
-    if (todayCasualties) {
+    if (casualtiesExist) {
         blah = todayCasualties.map((content, key) => (
             <Incident loc={content.location} tar={content.target} wea={content.weapons} minCas={content.minimum_reported} maxCas={content.maximum_reported} isTitle={false} oddEven={key % 2} key={key} />
         ))
@@ -73,7 +74,7 @@ export default function Main() {
 
             <div className="incident-container">
 
-                {incidentHeader}
+                {casualtiesExist ? incidentHeader : ""}
 
                 {blah}
             </div>
