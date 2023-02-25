@@ -9,6 +9,14 @@ body {
   font-size: 3vh;
 }
 
+.total-count {
+  margin-bottom: 2vh;
+  text-decoration: underline;
+}
+
+.total-container div {
+  text-indent: 5vw;
+}
 
 
 .incident-container {
@@ -35,6 +43,10 @@ body {
   border: none;
   background-color: rgba(29, 27, 27, 0.856);
   color: rgb(255, 255, 255);
+}
+
+.incidents-today {
+  text-decoration: underline;
 }
 
 
